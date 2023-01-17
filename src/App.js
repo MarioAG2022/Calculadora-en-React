@@ -1,9 +1,18 @@
 import './App.css';
+import logo from './img/logo.png';
 
 function App() {
   return (
     <div className="App">
-      Hola
+      <div className='logo-contenedor'>
+          <img
+            src={logo}
+            className='logo'
+            alt='Logo de calculadora'/>
+      </div>
+      <div className='contenedor-calculadora'>
+        
+      </div>
     </div>
   );
 }
